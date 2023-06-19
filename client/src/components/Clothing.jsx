@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState} from 'react'
 import styled from 'styled-components'
 import Switch from '@mui/material/Switch';
-import axios from 'axios';
-import { mobile, tablet } from '../responsive';
+import { mobile} from '../responsive';
 import Typewriter from 'typewriter-effect';
+import dataset from './dataset.json'
+import KNN from 'ml-knn';
+import fecthing from './Fetch';
 const Container=styled.div`
     margin-top: 20px;
 `;
@@ -167,26 +169,56 @@ export default function Clothing(props) {
     const [gender,setGender]=useState("men");
     const day=props.day;
     const [data,setData]=useState(null);
+    const [x_data, setX] = useState([]);
+    const [y_data, setY] = useState([]);
+    useEffect(()=>{
+        setX([]);
+        setY([]);
+        dataset.map((item)=>{
+            setX(prevItems => [...prevItems, [item.Temp,item.Humidity]]);
+            setY(prevItems => [...prevItems, [item.Class]]);
+        })
+   },[])
     const fetchData=async()=>{
         try {
-            const res=await axios.post("http://localhost:5000/fetchdata",{
+           let fecthedData=fecthing({
                 gender:gender,
                 label:label,
                 day:day,
                 main:props.main,
             });
-            setData(res.data);
+            setData(fecthedData);
         } catch (error) {
             console.log(error)
         }
     }
-    
+    function transposeArray(array) {
+        const rows = array.length;
+        const cols = array[0].length;
+      
+        const transposedArray = [];
+      
+        for (let j = 0; j < cols; j++) {
+          const newRow = [];
+          for (let i = 0; i < rows; i++) {
+            newRow.push(array[i][j]);
+          }
+          transposedArray.push(newRow);
+        }
+      
+        return transposedArray;
+      }
     const handleClick=()=>{
         
         const getLabel= async ()=>{
             try {
-                const res= await axios.post("http://localhost:5000/predict",{temp:props.data.temp,humidity:props.data.humidity})
-                setLable(res.data.label)
+                const temp=props.data.temp;
+                const humidity=props.data.humidity;
+                const transposed_y = transposeArray(y_data);
+                const knn = new KNN(x_data, transposed_y[0]);
+                const ans=knn.predict([temp,humidity]);
+                console.log(ans);
+                setLable(ans);
             } catch (error) {
                 console.log(error)
             }
@@ -206,7 +238,7 @@ export default function Clothing(props) {
     <Container>
       <Wrapper>
         <Filters>
-            <Button onClick={handleClick}>What To Wear</Button>
+           <Button onClick={handleClick}>What To Wear</Button>
             <Gender>Male <Switch style={{color:'rgb(107,41,250)'}} onClick={()=>gender==='men'?setGender("women"):setGender('men')}/> Female</Gender>
         </Filters>
         <Box>

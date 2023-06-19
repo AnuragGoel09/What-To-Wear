@@ -1,0 +1,642 @@
+[
+    {
+     "Temp": 27,
+     "Humidity": 85,
+     "Class": 0
+    },
+    {
+     "Temp": 27,
+     "Humidity": 75,
+     "Class": 0
+    },
+    {
+     "Temp": 28,
+     "Humidity": 65,
+     "Class": 1
+    },
+    {
+     "Temp": 28,
+     "Humidity": 55,
+     "Class": 1
+    },
+    {
+     "Temp": 29,
+     "Humidity": 45,
+     "Class": 1
+    },
+    {
+     "Temp": 29,
+     "Humidity": 35,
+     "Class": 2
+    },
+    {
+     "Temp": 30,
+     "Humidity": 25,
+     "Class": 2
+    },
+    {
+     "Temp": 30,
+     "Humidity": 10,
+     "Class": 2
+    },
+    {
+     "Temp": 31,
+     "Humidity": 56,
+     "Class": 1
+    },
+    {
+     "Temp": 31,
+     "Humidity": 75,
+     "Class": 0
+    },
+    {
+     "Temp": 32,
+     "Humidity": 58,
+     "Class": 1
+    },
+    {
+     "Temp": 32,
+     "Humidity": 26,
+     "Class": 2
+    },
+    {
+     "Temp": 33,
+     "Humidity": 43,
+     "Class": 1
+    },
+    {
+     "Temp": 33,
+     "Humidity": 68,
+     "Class": 0
+    },
+    {
+     "Temp": 34,
+     "Humidity": 41,
+     "Class": 1
+    },
+    {
+     "Temp": 34,
+     "Humidity": 43,
+     "Class": 1
+    },
+    {
+     "Temp": 35,
+     "Humidity": 10,
+     "Class": 2
+    },
+    {
+     "Temp": 35,
+     "Humidity": 95,
+     "Class": 0
+    },
+    {
+     "Temp": 36,
+     "Humidity": 85,
+     "Class": 0
+    },
+    {
+     "Temp": 36,
+     "Humidity": 74,
+     "Class": 0
+    },
+    {
+     "Temp": 37,
+     "Humidity": 48,
+     "Class": 1
+    },
+    {
+     "Temp": 38,
+     "Humidity": 45,
+     "Class": 1
+    },
+    {
+     "Temp": 38,
+     "Humidity": 56,
+     "Class": 1
+    },
+    {
+     "Temp": 39,
+     "Humidity": 52,
+     "Class": 1
+    },
+    {
+     "Temp": 39,
+     "Humidity": 25,
+     "Class": 2
+    },
+    {
+     "Temp": 40,
+     "Humidity": 15,
+     "Class": 2
+    },
+    {
+     "Temp": 40,
+     "Humidity": 34,
+     "Class": 2
+    },
+    {
+     "Temp": 41,
+     "Humidity": 65,
+     "Class": 0
+    },
+    {
+     "Temp": 41,
+     "Humidity": 45,
+     "Class": 1
+    },
+    {
+     "Temp": 42,
+     "Humidity": 75,
+     "Class": 0
+    },
+    {
+     "Temp": 42,
+     "Humidity": 85,
+     "Class": 0
+    },
+    {
+     "Temp": 43,
+     "Humidity": 7,
+     "Class": 2
+    },
+    {
+     "Temp": 15,
+     "Humidity": 85,
+     "Class": 2
+    },
+    {
+     "Temp": 15,
+     "Humidity": 75,
+     "Class": 3
+    },
+    {
+     "Temp": 16,
+     "Humidity": 65,
+     "Class": 4
+    },
+    {
+     "Temp": 16,
+     "Humidity": 55,
+     "Class": 4
+    },
+    {
+     "Temp": 17,
+     "Humidity": 45,
+     "Class": 4
+    },
+    {
+     "Temp": 17,
+     "Humidity": 35,
+     "Class": 5
+    },
+    {
+     "Temp": 18,
+     "Humidity": 25,
+     "Class": 5
+    },
+    {
+     "Temp": 18,
+     "Humidity": 10,
+     "Class": 5
+    },
+    {
+     "Temp": 19,
+     "Humidity": 56,
+     "Class": 4
+    },
+    {
+     "Temp": 19,
+     "Humidity": 75,
+     "Class": 3
+    },
+    {
+     "Temp": 20,
+     "Humidity": 58,
+     "Class": 4
+    },
+    {
+     "Temp": 28,
+     "Humidity": 26,
+     "Class": 5
+    },
+    {
+     "Temp": 21,
+     "Humidity": 43,
+     "Class": 4
+    },
+    {
+     "Temp": 21,
+     "Humidity": 68,
+     "Class": 3
+    },
+    {
+     "Temp": 22,
+     "Humidity": 41,
+     "Class": 4
+    },
+    {
+     "Temp": 22,
+     "Humidity": 43,
+     "Class": 4
+    },
+    {
+     "Temp": 23,
+     "Humidity": 10,
+     "Class": 5
+    },
+    {
+     "Temp": 23,
+     "Humidity": 95,
+     "Class": 3
+    },
+    {
+     "Temp": 24,
+     "Humidity": 85,
+     "Class": 3
+    },
+    {
+     "Temp": 24,
+     "Humidity": 74,
+     "Class": 3
+    },
+    {
+     "Temp": 25,
+     "Humidity": 48,
+     "Class": 4
+    },
+    {
+     "Temp": 25,
+     "Humidity": 45,
+     "Class": 4
+    },
+    {
+     "Temp": 26,
+     "Humidity": 56,
+     "Class": 4
+    },
+    {
+     "Temp": 26,
+     "Humidity": 52,
+     "Class": 4
+    },
+    {
+     "Temp": 27,
+     "Humidity": 25,
+     "Class": 5
+    },
+    {
+     "Temp": 27,
+     "Humidity": 15,
+     "Class": 5
+    },
+    {
+     "Temp": 25,
+     "Humidity": 34,
+     "Class": 5
+    },
+    {
+     "Temp": 21,
+     "Humidity": 65,
+     "Class": 3
+    },
+    {
+     "Temp": 23,
+     "Humidity": 45,
+     "Class": 4
+    },
+    {
+     "Temp": 14,
+     "Humidity": 75,
+     "Class": 3
+    },
+    {
+     "Temp": 16,
+     "Humidity": 85,
+     "Class": 3
+    },
+    {
+     "Temp": 30,
+     "Humidity": 7,
+     "Class": 5
+    },
+    {
+     "Temp": 7,
+     "Humidity": 85,
+     "Class": 6
+    },
+    {
+     "Temp": 7,
+     "Humidity": 75,
+     "Class": 6
+    },
+    {
+     "Temp": 8,
+     "Humidity": 65,
+     "Class": 7
+    },
+    {
+     "Temp": 8,
+     "Humidity": 55,
+     "Class": 7
+    },
+    {
+     "Temp": 9,
+     "Humidity": 45,
+     "Class": 7
+    },
+    {
+     "Temp": 9,
+     "Humidity": 35,
+     "Class": 8
+    },
+    {
+     "Temp": 10,
+     "Humidity": 25,
+     "Class": 8
+    },
+    {
+     "Temp": 10,
+     "Humidity": 10,
+     "Class": 8
+    },
+    {
+     "Temp": 11,
+     "Humidity": 56,
+     "Class": 7
+    },
+    {
+     "Temp": 11,
+     "Humidity": 75,
+     "Class": 6
+    },
+    {
+     "Temp": 12,
+     "Humidity": 58,
+     "Class": 7
+    },
+    {
+     "Temp": 12,
+     "Humidity": 26,
+     "Class": 8
+    },
+    {
+     "Temp": 13,
+     "Humidity": 43,
+     "Class": 7
+    },
+    {
+     "Temp": 13,
+     "Humidity": 68,
+     "Class": 6
+    },
+    {
+     "Temp": 14,
+     "Humidity": 41,
+     "Class": 7
+    },
+    {
+     "Temp": 14,
+     "Humidity": 43,
+     "Class": 8
+    },
+    {
+     "Temp": 15,
+     "Humidity": 10,
+     "Class": 8
+    },
+    {
+     "Temp": 15,
+     "Humidity": 95,
+     "Class": 6
+    },
+    {
+     "Temp": 16,
+     "Humidity": 85,
+     "Class": 6
+    },
+    {
+     "Temp": 16,
+     "Humidity": 74,
+     "Class": 6
+    },
+    {
+     "Temp": 7,
+     "Humidity": 48,
+     "Class": 7
+    },
+    {
+     "Temp": 8,
+     "Humidity": 45,
+     "Class": 7
+    },
+    {
+     "Temp": 9,
+     "Humidity": 56,
+     "Class": 7
+    },
+    {
+     "Temp": 10,
+     "Humidity": 52,
+     "Class": 7
+    },
+    {
+     "Temp": 11,
+     "Humidity": 25,
+     "Class": 8
+    },
+    {
+     "Temp": 12,
+     "Humidity": 15,
+     "Class": 8
+    },
+    {
+     "Temp": 13,
+     "Humidity": 34,
+     "Class": 8
+    },
+    {
+     "Temp": 14,
+     "Humidity": 65,
+     "Class": 6
+    },
+    {
+     "Temp": 15,
+     "Humidity": 45,
+     "Class": 7
+    },
+    {
+     "Temp": 6,
+     "Humidity": 75,
+     "Class": 6
+    },
+    {
+     "Temp": 5,
+     "Humidity": 85,
+     "Class": 6
+    },
+    {
+     "Temp": 7,
+     "Humidity": 7,
+     "Class": 8
+    },
+    {
+     "Temp": 7,
+     "Humidity": 85,
+     "Class": 9
+    },
+    {
+     "Temp": 7,
+     "Humidity": 75,
+     "Class": 9
+    },
+    {
+     "Temp": 6,
+     "Humidity": 65,
+     "Class": 10
+    },
+    {
+     "Temp": 6,
+     "Humidity": 55,
+     "Class": 10
+    },
+    {
+     "Temp": 5,
+     "Humidity": 45,
+     "Class": 10
+    },
+    {
+     "Temp": 5,
+     "Humidity": 35,
+     "Class": 11
+    },
+    {
+     "Temp": 4,
+     "Humidity": 25,
+     "Class": 11
+    },
+    {
+     "Temp": 4,
+     "Humidity": 10,
+     "Class": 11
+    },
+    {
+     "Temp": 3,
+     "Humidity": 56,
+     "Class": 10
+    },
+    {
+     "Temp": 3,
+     "Humidity": 75,
+     "Class": 9
+    },
+    {
+     "Temp": 2,
+     "Humidity": 58,
+     "Class": 10
+    },
+    {
+     "Temp": 2,
+     "Humidity": 26,
+     "Class": 11
+    },
+    {
+     "Temp": 1,
+     "Humidity": 43,
+     "Class": 11
+    },
+    {
+     "Temp": 1,
+     "Humidity": 68,
+     "Class": 10
+    },
+    {
+     "Temp": 0,
+     "Humidity": 41,
+     "Class": 10
+    },
+    {
+     "Temp": 0,
+     "Humidity": 43,
+     "Class": 10
+    },
+    {
+     "Temp": -1,
+     "Humidity": 10,
+     "Class": 11
+    },
+    {
+     "Temp": -1,
+     "Humidity": 95,
+     "Class": 9
+    },
+    {
+     "Temp": -2,
+     "Humidity": 85,
+     "Class": 9
+    },
+    {
+     "Temp": -2,
+     "Humidity": 74,
+     "Class": 9
+    },
+    {
+     "Temp": -3,
+     "Humidity": 48,
+     "Class": 10
+    },
+    {
+     "Temp": -3,
+     "Humidity": 45,
+     "Class": 10
+    },
+    {
+     "Temp": 4,
+     "Humidity": 56,
+     "Class": 10
+    },
+    {
+     "Temp": 4,
+     "Humidity": 52,
+     "Class": 10
+    },
+    {
+     "Temp": 6,
+     "Humidity": 25,
+     "Class": 11
+    },
+    {
+     "Temp": 5,
+     "Humidity": 15,
+     "Class": 11
+    },
+    {
+     "Temp": 7,
+     "Humidity": 34,
+     "Class": 11
+    },
+    {
+     "Temp": 6,
+     "Humidity": 65,
+     "Class": 10
+    },
+    {
+     "Temp": 3,
+     "Humidity": 45,
+     "Class": 10
+    },
+    {
+     "Temp": 8,
+     "Humidity": 75,
+     "Class": 9
+    },
+    {
+     "Temp": 1,
+     "Humidity": 85,
+     "Class": 9
+    },
+    {
+     "Temp": 2,
+     "Humidity": 7,
+     "Class": 11
+    }
+   ]
